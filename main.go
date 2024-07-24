@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Welcome to the confrence booking application")
+	var confrenceName = "Go confrence"
+
+	fmt.Println("Welcome to", confrenceName, "booking application")
 	fmt.Println("Get your tickets here to attend")
 }
